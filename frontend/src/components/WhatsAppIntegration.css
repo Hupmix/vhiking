@@ -1,0 +1,114 @@
+.whatsapp-integration-container {
+  padding: 20px;
+}
+
+.status-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.status-info {
+  margin-bottom: 20px;
+}
+
+.status-badge {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+}
+
+.qrcode-container {
+  text-align: center;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  margin: 0 auto;
+  max-width: 250px;
+}
+
+.qrcode-placeholder {
+  text-align: center;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  margin: 0 auto;
+  max-width: 250px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #666;
+}
+
+.stats-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.stat-card {
+  flex: 1;
+  min-width: 120px;
+  margin: 10px;
+  padding: 15px;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.stat-value {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #0d6efd;
+}
+
+.logs-container {
+  max-height: 400px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #f9f9f9;
+}
+
+.log-entry {
+  padding: 8px;
+  margin-bottom: 5px;
+  border-radius: 4px;
+  font-family: monospace;
+}
+
+.log-info {
+  background-color: #e9f5ff;
+  border-left: 4px solid #0d6efd;
+}
+
+.log-success {
+  background-color: #e9ffe9;
+  border-left: 4px solid #198754;
+}
+
+.log-warning {
+  background-color: #fff9e9;
+  border-left: 4px solid #ffc107;
+}
+
+.log-error {
+  background-color: #ffe9e9;
+  border-left: 4px solid #dc3545;
+}
+
+.log-timestamp {
+  color: #666;
+  margin-right: 10px;
+  font-size: 0.9rem;
+}
+
+.log-message {
+  color: #333;
+}

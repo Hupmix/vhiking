@@ -1,0 +1,95 @@
+.admin-panel {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background-color: #343a40;
+  color: white;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.logout-btn {
+  background: none;
+  border: none;
+  color: #f8f9fa;
+  margin-left: 15px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.logout-btn:hover {
+  color: #e2e6ea;
+}
+
+.sidebar {
+  background-color: #f8f9fa;
+  padding: 20px 0;
+  min-height: calc(100vh - 150px);
+}
+
+.sidebar .nav-link {
+  color: #495057;
+  border-radius: 0;
+  padding: 10px 20px;
+}
+
+.sidebar .nav-link:hover {
+  background-color: #e9ecef;
+}
+
+.sidebar .nav-link.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.content-area {
+  padding: 20px;
+}
+
+.stat-card {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.stat-value {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.activity-log {
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.activity-item {
+  padding: 10px;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.activity-item:last-child {
+  border-bottom: none;
+}
+
+.timestamp {
+  color: #6c757d;
+  font-size: 0.85rem;
+  margin-right: 10px;
+}
+
+.footer {
+  margin-top: auto;
+  background-color: #f8f9fa;
+  padding: 15px;
+  text-align: center;
+  color: #6c757d;
+}
